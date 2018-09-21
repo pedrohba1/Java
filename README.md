@@ -1,2 +1,2 @@
-# Estudos-em-Java
+# Java
 Todos os projetos das aulas aqui.
