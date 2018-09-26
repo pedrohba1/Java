@@ -1,7 +1,7 @@
 package com.company;
 
 public class Circulo {
-    Ponto centro = new Ponto();
+    private Ponto centro = new Ponto();
     private double raio;
     private String nome;
 
