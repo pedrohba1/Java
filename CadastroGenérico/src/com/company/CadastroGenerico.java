@@ -3,7 +3,7 @@ package com.company;
 
 import java.util.ArrayList;
 
-    public class CadastroGenerico {
+    public class CadastroGenerico  {
 
 
         private ArrayList<Elemento> ListaElementos = new ArrayList<>();
@@ -15,8 +15,10 @@ import java.util.ArrayList;
 
 
         public void excluir(int id) {
-            for (Elemento elemento : ListaElementos) {
-                if (elemento.getId() == id) {
+
+            Elemento aux = new Elemento();
+            for (Elemento elemento : ListaElementos){
+                if(elemento.getId() == id){
                     ListaElementos.remove(elemento);
                 }
             }
