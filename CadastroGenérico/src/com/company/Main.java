@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -24,8 +26,9 @@ public class Main {
     cadastro.excluir(20);
     cadastro.excluir(10);
 
-
+    cadastro.clear();
     System.out.println(cadastro.nroElementos());
+
 
     }
 }

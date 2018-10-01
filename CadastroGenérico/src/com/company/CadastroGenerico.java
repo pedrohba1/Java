@@ -41,6 +41,12 @@ import java.util.ArrayList;
             }
         }
 
+        public void clear (){
+            ListaElementos.clear();
+        }
+
+
+
         public int nroElementos(){
             return ListaElementos.size();
         }
