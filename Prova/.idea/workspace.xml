@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="714905be-0fec-44c0-a37f-d0cf38695df5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../heranças/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../janelinhas/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../janelinhas/src/com/company/Janelas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forca/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../forca/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forca/out/production/forca/com/company/Forca.class" beforeDir="false" afterPath="$PROJECT_DIR$/../forca/out/production/forca/com/company/Forca.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../forca/src/com/company/Forca.java" beforeDir="false" afterPath="$PROJECT_DIR$/../forca/src/com/company/Forca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heranças/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../heranças/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heranças/src/com/company/Administrativos.java" beforeDir="false" afterPath="$PROJECT_DIR$/../heranças/src/com/company/Administrativos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heranças/src/com/company/Funcionarios.java" beforeDir="false" afterPath="$PROJECT_DIR$/../heranças/src/com/company/Funcionarios.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../heranças/src/com/company/Vendedores.java" beforeDir="false" afterPath="$PROJECT_DIR$/../heranças/src/com/company/Vendedores.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +19,7 @@
     <session id="137022474">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.50" value="1" />
@@ -42,19 +41,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2665" />
+          <entry key="java" value="2670" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2665" />
+          <entry key="JAVA" value="2670" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Cliente.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -68,11 +67,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Conta.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="315">
+              <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -211,12 +210,12 @@
       <workItem from="1538415133782" duration="629000" />
       <workItem from="1538425461818" duration="338000" />
       <workItem from="1538436555826" duration="75000" />
-      <workItem from="1540945455784" duration="897000" />
+      <workItem from="1540945455784" duration="1516000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9862000" />
+    <option name="totallyTimeSpent" value="10481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -256,9 +255,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/company/Cliente.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Lancamento.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -268,10 +264,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Conta.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="315">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
