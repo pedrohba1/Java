@@ -1,7 +1,7 @@
 package com.company;
 
 import sun.font.TrueTypeFont;
-
+import javax.swing.JOptionPane;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
@@ -68,11 +68,6 @@ public class Forca {
         letrasTestadas.add(letra);
         return false;
     }
-
-
-
-
-
 
     public void jogo(){
         boolean endgame = false;
