@@ -16,6 +16,13 @@ public class ContaBancaria {
         this.limite = limite;
     }
 
+    public ContaBancaria(){
+        this.nome = null;
+        this.saldo = 0;
+        this.limite = 0;
+    }
+
+
     public void depositar(double dinheiro) throws EstouroDeLimiteException{
      if(dinheiro < 0){
          IllegalArgumentException e = new IllegalArgumentException();
@@ -23,6 +30,11 @@ public class ContaBancaria {
      }
 
     this.saldo += dinheiro;
+    }
+
+
+    public double getLimite() {
+        return limite;
     }
 
     public void sacar(double dinheiro) throws EstouroDeLimiteException {
@@ -41,6 +53,9 @@ public class ContaBancaria {
             this.saldo -= dinheiro;
         }
     }
+
+
+
 
     public double getSaldo() {
         return saldo;

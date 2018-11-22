@@ -16,9 +16,22 @@ public class ListaContaBancaria {
             throw e;
         }
         ContaBancaria c = new ContaBancaria(nome, limite);
-        ListaContas.add(c);
-        totalContas++;
+        this.ListaContas.add(c);
+        this.totalContas++;
     }
+
+    public void inserir(ContaBancaria c) throws BufferOverflowException {
+        if(totalContas == limiteContas){
+            BufferOverflowException e = new BufferOverflowException();
+            throw e;
+        }
+        this.ListaContas.add(c);
+        this.totalContas++;
+    }
+
+
+
+
 
     //remove pelo nome
     public void remover(String nome) throws BufferUnderflowException {
@@ -30,16 +43,33 @@ public class ListaContaBancaria {
 
         for(ContaBancaria i : ListaContas){
             if(i.getNome() == nome){
-                ListaContas.remove(i);
-                totalContas--;
+                this.ListaContas.remove(i);
+                this.totalContas--;
             }
         }
     }
 
 
-    public ContaBancaria obter(String nome) throws ClassNotFoundException{
+
+
+
+
+    public ContaBancaria Obter(String nome) throws ClassNotFoundException{
         for(ContaBancaria i : ListaContas) {
             if(i.getNome() == nome){
+                return i;
+            }
+        }
+        ClassNotFoundException e = new ClassNotFoundException();
+        throw e;
+    }
+
+
+
+
+    public ContaBancaria Obter(ContaBancaria c) throws ClassNotFoundException{
+        for(ContaBancaria i : ListaContas) {
+            if(i  == c){
                 return i;
             }
         }
