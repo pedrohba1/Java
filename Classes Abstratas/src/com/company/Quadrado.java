@@ -27,6 +27,6 @@ public class Quadrado  extends FiguraPlana{
 
     @Override
     public String toString() {
-        return super.toString() + "Quadrado";
+        return super.toString() + "Quadrado ";
     }
 }

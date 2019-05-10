@@ -1,4 +1,4 @@
-package com.company;
+        package com.company;
 import javax.swing.JOptionPane;
 
 public class Banco {
